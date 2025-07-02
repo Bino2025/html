@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Application Form</h2>
+    <form action="./form.html">
+        <!-- Name -->
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="Name">Last Name:</label>
+        <input type="text" id="Name" name="Name" required><br><br>
+        <!-- dob -->
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required><br><br>
+        <!-- gender -->
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select>
+        <!-- mail -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email address" required><br><br>
+        <!-- options -->
+        <label for="positions">Available Positions:</label>
+        <input type="radio" id="positions" name="Juniordev" value="Juniordev" >
+        <label for="Juniordev">Junior Developer</label>
+
+        <input type="radio" id="positions" name="mid-leveldev" value="mid-leveldev" >
+        <label for="mid-leveldev">Mid-Level Developer</label>
+
+         <input type="radio" id="positions" name="seniordev" value="seniordev" >
+        <label for="seniordev">Senior Developer</label><br><br>
+        <!-- checkbox -->
+        <label for="language">Programming Language:</label>
+        <input type="checkbox" id="language" name="java" value="java">
+        <label for="java">Java</label>
+
+         <input type="checkbox" id="language" name="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+
+         <input type="checkbox" id="language" name="python" value="python">
+        <label for="python">Python</label><br><br>
+        <!-- password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <!-- confirmpassword -->
+        <label for="confirmpassword">Confirm Password:</label>
+        <input type="password" id="confirmpassword" name="confirmpassword" required><br><br>
+        <!-- submit&reset button -->
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

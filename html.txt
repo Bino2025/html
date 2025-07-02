@@ -1,0 +1,16 @@
+globalattributes
+
+1-class---specifies one or more class name for the element
+2-id------assigns a unique identifier to the element
+3-style----allow inline css styling
+4-title----provide additional informations
+5-hidden---hide the elements from the view
+6-tanindex-control the tab order of the element
+7-lang-----declares the language of the element content
+8-dir------specifies the text direction
+9-accesskey-specifies a keyword shortcurt to access the element
+10-draggable-specifies whether the element is draggable
+11-contenteditable-allow the content of the element to be editable
+12-spellcheck------specifies whether to check spelling for the element
+13-data-*----------store custom data attrbutes
+14-translate-------indicate whether the content should be translated 

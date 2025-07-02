@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio</title>
+</head>
+<body>
+    <audio controls>
+        <source src="./Bolinha De Queijo [Audio Edit].mp3" type="audio/mp3">
+    </audio>
+<!-- audio with autoplay,loop,mute -->
+    <audio autoplay loop muted controls>
+        <source src="./Bolinha De Queijo [Audio Edit].mp3" type="audio/mp3">
+    </audio>
+<!-- preload auto-default -->
+    <h1>preload auto</h1>
+    <audio controls preload="auto">
+        <source src="./Bolinha De Queijo [Audio Edit].mp3" type="audio/mp3">
+    </audio>
+<!-- preload metadata-it doesn't load automatically -->
+    <h1>preload metadata</h1>
+    <audio controls preload="metadata">
+        <source src="./Bolinha De Queijo [Audio Edit].mp3" type="audio/mp3">
+    </audio>
+<!-- preload none-load nothing -->
+    <h1>preload None</h1>
+    <audio controls preload="none">
+        <source src="./Bolinha De Queijo [Audio Edit].mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
